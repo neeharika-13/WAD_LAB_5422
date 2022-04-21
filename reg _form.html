@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form action="reg _form.html" method = "POST" target = "_self" name="form">
+        <font color ="red"><h1>Student Registration Form</h1></font>
+        <fieldset>
+            <table>
+                <tr>
+                    <td>Reg No</td>
+                    <td><input type = "text" placeholder="Enter your Reg No"></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type = "text" placeholder= "Enter your Name"></td>
+                </tr>
+                <tr>
+                    <td>Father Name</td>
+                    <td><input type = "text" placeholder="Enter your Father Name"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type = "radio" name = "Gender"/>Male</td>
+                    <td><input type = "radio" name = "Gender"/>Female</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type = "date" placeholder="DD/  MM/  YYYY"></td>
+                </tr>
+                <tr>
+                    <td>Languages Known</td>
+                    <td>
+                        <input type = "checkbox" name = "Languages Known">C
+                        <input type = "checkbox" name = "Languages Known">C++
+                        <input type = "checkbox" name = "Languages Known">Python<br>
+                        <input type = "checkbox" name = "Languages Known">Java
+                        <input type = "checkbox" name = "Languages Known">R
+                        <input type = "checkbox" name = "Languages Known">Julia
+                    </td>
+                </tr>
+                <tr>
+                    <td>Branch</td>
+                    <td>
+                    <select>
+                        <option value = "-1">Select Branch</option>
+                        <option value = "CSE">CSE</option>
+                        <option value = "IT">IT</option>
+                        <option value = "EEE">EEE</option>
+                        <option value = "ECE">ECE</option>
+                        <option value = "ME">ME</option>
+                        <option value = "AI&DS">AI&DS</option>
+                        <option value = "AI&ML">AI&ML</option>
+                        <option value = "CE">CE</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea rows ="5" cols ="20" placeholder="Enter your Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="center" ><input type = "submit" value = "Submit"></td>
+                    <td><input type = "reset" value = "Reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    </body>
+</html>
