@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prompt box</title>
+	<script language="javascript">
+		function display_prompt(){
+			var name = prompt("Enter your name");
+			var branch = prompt("Enter your branch");
+			if(name != null && name != "" && branch != null && branch != ""){
+				document.write("<h1 style = \"color: royalblue\">"+name+"<br>"+ branch +"</h1>");
+				
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="button" onclick="display_prompt()" value = "Click to get prompt box">
+</body>
+</html>

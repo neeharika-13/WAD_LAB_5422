@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Confirm box</title>
+	<style type="text/css">
+		b{
+			color: hotpink;
+			text-decoration: underline;
+		}
+	</style>
+	<script language="javascript">
+		function display_confirm(){
+			var p = confirm("Click a button");
+			if(p == true){
+				document.write("You clicked <b style = \"color: royalblue\">OK!!</b>");
+			}
+			else{
+				document.write("You clicked <b style = \"color: royalblue\">CANCEL!!</b>");
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="button" onclick="display_confirm()" value = "Click to get confirm box">
+</body>
+</html>
