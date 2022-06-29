@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Palindrome</title>
+</head>
+<body>
+	<h2 align="center">Program to Find whether the number is a Palindrome or Not</h2>
+	<script type="text/javascript" align ="center">
+		var num = prompt("Enter number to check it is a palindrome or not : ");
+		
+		document.write("Entered Number : ", num, "<br>")
+		
+		var n = String(num) .split("") .reverse() .join("");
+		if(String(num) == n){
+			document.write(num," is a Palindrome");
+		}
+		else{
+			document.write(num," is not a Palindrome");
+		}
+	</script>
+</body>
+</html>

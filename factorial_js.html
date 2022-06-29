@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Factorial</title>
+</head>
+<body>
+	<h2 align="center">Program to find Factorial of a number</h2>
+	<script type="text/javascript">
+		var num = prompt("Enter number to find factorial :");
+		var fact = 1;
+		if (num > 0){
+			for (var i = 2; i <= num; i++) {
+				fact = fact * i;
+			}
+			document.write("Factorial of ",num, " is ", fact);
+		}
+		else{
+			document.write("Factorial of ",num, "cannot be determined because entered number is negative");
+		}
+		
+	</script>
+</body>
+</html>
